@@ -1,12 +1,12 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-@font-face{
+@font-face {
     font-family: header_footer;
     src: url("../font/font_header_footer.otf");
 }
-@font-face{
+@font-face {
     font-family: body;
     src: url("../font/body.ttf");
 }
@@ -24,16 +24,16 @@ nav ul {
     list-style-type: none;
     display: flex;
 }
-nav ul li {  
+nav ul li {
     margin-right: 10px;
 }
-a:hover{
+a:hover {
     color: black;
     background-color: #dedcdc;
     border-radius: 50px;
     transition: 0.6s;
 }
-nav a{
+nav a {
     position: relative;
     left: 150px;
     color: white;
@@ -66,24 +66,71 @@ nav a{
     height: 36px;
     width: 230px;
 }
-.carrinho{
+.carrinho {
     margin-right: 50px;
 }
-#marcas{
+#marcas {
     margin-top: 50px;
     display: flex;
     margin: 50px;
     justify-content: space-evenly;
     align-items: center;
 }
-.logo_marcas img{
+.logo_marcas img {
     border-radius: 100%;
 }
 .legenda {
     text-align: center;
     font-size: 21px;
 }
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    font-family: body;
+}
 
+.produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 514px;
+    height: 590px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.img_produtos {
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+.texto_prod {
+    text-align: center;
+    font-size: 21px;
+    line-height: 50px;
+}
+
+button {
+    width: 144px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+button:hover {
+    color: black;
+    background-color: #dedcdc;
+    border-radius: 20px;
+    transition: 0.6s;
+}
 
 footer {
     font-family: header_footer;
@@ -94,20 +141,23 @@ footer {
     align-items: center;
     background-color: #000000;
     padding: 15px;
+    margin-top: 50px;
 }
-h4{
+h4 {
     color: white;
 }
-#titulo_rede_social{
+#titulo_rede_social {
     text-align: center;
 }
-.contato ul, .rede_social ul {
+.contato ul,
+.rede_social ul {
     color: white;
     list-style-type: none;
     padding: 0;
 }
 
-.contato h4, .rede_social h4 {
+.contato h4,
+.rede_social h4 {
     margin-bottom: 10px;
 }
 
@@ -119,4 +169,3 @@ h4{
 .rede_social ul li:last-child {
     margin-right: 0;
 }
-
